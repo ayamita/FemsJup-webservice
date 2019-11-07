@@ -3,24 +3,14 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
- <form runat="server">
-    <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header bg-success">
-                                        <strong class="card-title text-light">Card Header</strong>
-                                    </div>
-                                    <div class="card-body text-white bg-warning">
-                                        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-    <div class="form-group">
-	    <asp:Button ID="btnConsulta" runat="server" Text="Consulta" class="btn float-right login_btn" OnClick="btnConsulta_Click"  />
-    </div>                
+ <form runat="server">	    
+     <button class="btn btn-primary" id="btnConsulta" type="button"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+      <div class="container">
+        <div class="panel panel-info">
+            <div class="panel-heading"><h4>Result</h4></div>
+            <div class="panel-body"><div id="dvResults"></div></div>
+        </div>
+    </div>
  </form>
                                  <!-- Jquery JS-->
     <script src="../Recursos/vendor/jquery-3.2.1.min.js"></script>
