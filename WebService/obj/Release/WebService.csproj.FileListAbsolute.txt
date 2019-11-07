@@ -1,0 +1,68 @@
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\ApplicationInsights.config
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\csc.exe
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\vbc.exe
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\WebService.dll.config
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\WebService.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\WebService.pdb
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.Web.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.Web.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\obj\Release\WebService.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\obj\Release\WebService.dll
+C:\Users\Alexander\Desktop\Fems-Jup\WebService\obj\Release\WebService.pdb
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\ApplicationInsights.config
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\csc.exe
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\vbc.exe
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\WebService.dll.config
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\WebService.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\WebService.pdb
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.Web.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.Web.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\obj\Release\WebService.csprojAssemblyReference.cache
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\obj\Release\WebService.csproj.CoreCompileInputs.cache
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\obj\Release\WebService.csproj.CopyComplete
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\obj\Release\WebService.dll
+C:\Users\Angel Yam\Desktop\Fems-Jup\Fems-Jup\WebService\obj\Release\WebService.pdb
