@@ -13,24 +13,6 @@ namespace Fems_Jup.UI {
     public partial class Aprobados {
         
         /// <summary>
-        /// Control btnInvocar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnInvocar;
-        
-        /// <summary>
-        /// Control dgvDatos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvDatos;
-        
-        /// <summary>
         /// Control lbl_Id.
         /// </summary>
         /// <remarks>
@@ -74,5 +56,14 @@ namespace Fems_Jup.UI {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Eliminar;
+        
+        /// <summary>
+        /// Control dgvDatos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView dgvDatos;
     }
 }

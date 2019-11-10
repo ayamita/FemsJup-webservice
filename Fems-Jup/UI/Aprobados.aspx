@@ -3,32 +3,39 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
- <form runat="server">	    
-     <asp:Button ID="btnInvocar" runat="server" Text="Invocar" OnClick="btnInvocar_Click" />
-      <div class="container">
-        <div class="panel panel-info">
-            <div class="panel-heading"><h4>Result</h4></div>            
-            <div class="panel-body"><div id="dvResults"></div></div>            
-            <asp:GridView ID="dgvDatos" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" OnRowDataBound="dgv_usuario_RowDataBound" OnSelectedIndexChanged="Seleccionar_registro">
-                <AlternatingRowStyle BackColor="White" />
-                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
-                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
-                <SortedAscendingCellStyle BackColor="#FDF5AC" />
-                <SortedAscendingHeaderStyle BackColor="#4D0000" />
-                <SortedDescendingCellStyle BackColor="#FCF6C0" />
-                <SortedDescendingHeaderStyle BackColor="#820000" />
-            </asp:GridView>
-            <br /><br />
-            <asp:Label ID="lbl_Id" runat="server" Text="Id:"></asp:Label>
-            <asp:TextBox ID="txt_Id" runat="server"></asp:TextBox><br /><br />
-            <asp:Label ID="lbl_Nombre" runat="server" Text="Nombre:"></asp:Label>
-            <asp:TextBox ID="txt_Nombre" runat="server"></asp:TextBox><br /><br />                        
-            <asp:Button ID="btn_Eliminar" runat="server" Text="Eliminar" OnClick="btn_Eliminar_Click" />
-        </div>
-    </div>
+         <form runat="server">	    
+             <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header"><strong>Usuarios Aprobados</strong><small> Form</small></div>
+                    <div class="card-body card-block">
+                        <div class="form-group">
+                            <asp:Label for="company" class=" form-control-label" ID="lbl_Id" runat="server" Text="Id:"></asp:Label>
+                            <asp:TextBox ID="txt_Id" runat="server" placeholder="Id de usuario" class="form-control"></asp:TextBox>                                                              
+                        </div>  
+                        <div class="form-group">
+                            <asp:Label for="company" class=" form-control-label" ID="lbl_Nombre" runat="server" Text="Nombre:"></asp:Label>
+                            <asp:TextBox ID="txt_Nombre" runat="server" placeholder="Nombre de usuario" class="form-control"></asp:TextBox>                                            
+                        </div>                        
+                        <div class="form-group">
+                            <asp:Button ID="btn_Eliminar" runat="server" Text="Eliminar" Click="btn_Eliminar_Click" class="btn btn-danger" BackColor="#7F183A" />
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-lg-10">
+                <asp:GridView ID="dgvDatos" runat="server" CellPadding="4" ForeColor="#ffffff" GridLines="None" OnRowDataBound="dgv_usuario_RowDataBound" OnSelectedIndexChanged="Seleccionar_registro">
+                    <AlternatingRowStyle BackColor="White" />
+                    <FooterStyle BackColor="#7F183A" Font-Bold="True" ForeColor="White" />
+                    <HeaderStyle BackColor="#7F183A " Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#FFFFFF" ForeColor="#7F183A" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#FFFFFF" ForeColor="#7F183A" />
+                    <SelectedRowStyle BackColor="#BD3D67" Font-Bold="True" ForeColor="#FFFFFF" />
+                    <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                    <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                    <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                    <SortedDescendingHeaderStyle BackColor="#820000" />
+                </asp:GridView>
+            </div>     
  </form>
                                  <!-- Jquery JS-->
     <script src="../Recursos/vendor/jquery-3.2.1.min.js"></script>
