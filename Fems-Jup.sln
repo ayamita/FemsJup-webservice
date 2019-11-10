@@ -1,9 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fems-Jup", "Fems-Jup\Fems-Jup.csproj", "{1D06C0A1-FB0B-4C57-A035-ED4CB66B83C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5B1B654-B2AE-4F09-94FD-71E592C0A281} = {F5B1B654-B2AE-4F09-94FD-71E592C0A281}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{F5B1B654-B2AE-4F09-94FD-71E592C0A281}"
 EndProject

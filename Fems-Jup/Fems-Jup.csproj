@@ -48,7 +48,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -70,6 +75,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\SQL\SQL.disco" />
+    <None Include="Connected Services\SQL\configuration91.svcinfo" />
+    <None Include="Connected Services\SQL\configuration.svcinfo" />
+    <None Include="Connected Services\SQL\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Recursos\css\font-face.css" />
     <Content Include="Recursos\css\general.css" />
     <Content Include="Recursos\css\jquery-confirm.css" />
@@ -2290,11 +2302,17 @@
     <Content Include="UI\Aprobados.aspx" />
     <Content Include="UI\Index.aspx" />
     <Content Include="UI\Login.aspx" />
+    <Content Include="UI\No_Aprobados.aspx" />
     <Content Include="UI\Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BO\UsuarioAdmin.cs" />
+    <Compile Include="Connected Services\SQL\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage\login.Master.cs">
       <DependentUpon>login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2331,6 +2349,13 @@
     <Compile Include="UI\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\No_Aprobados.aspx.cs">
+      <DependentUpon>No_Aprobados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\No_Aprobados.aspx.designer.cs">
+      <DependentUpon>No_Aprobados.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2342,6 +2367,7 @@
   <ItemGroup>
     <Content Include="MasterPage\login.Master" />
     <Content Include="MasterPage\MasterP.Master" />
+    <None Include="Connected Services\SQL\SQL.wsdl" />
     <None Include="packages.config" />
     <Content Include="Recursos\fonts\poppins\poppins-v5-latin-100.eot" />
     <Content Include="Recursos\fonts\poppins\poppins-v5-latin-100.ttf" />
@@ -3120,6 +3146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\SQL\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

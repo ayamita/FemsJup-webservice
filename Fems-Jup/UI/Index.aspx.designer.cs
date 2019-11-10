@@ -10,6 +10,6 @@
 namespace Fems_Jup.UI {
     
     
-    public partial class Index {
+    public partial class Index1 {
     }
 }

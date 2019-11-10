@@ -172,3 +172,5 @@ C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.csproj.
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.csproj.CopyComplete
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.dll
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.pdb
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Newtonsoft.Json.dll
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Newtonsoft.Json.xml
