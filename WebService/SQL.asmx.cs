@@ -45,7 +45,18 @@ namespace WebService
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void Mostrar()
         {
-            string strBuscar = string.Format("SELECT * FROM Usuario");
+            string strBuscar = string.Format("SELECT u.id_usuario as ID,u.nombre as Nombre, u.apellido_p as ApellidoP, u.apellido_m as ApellidoM, u.correo as Correo, u.contrasenia , u.fotoperfil, u.telefono, u.direccion, tu.TipoUsuario, es.estatus as Estatus, p.pais, e.estado, m.municipio"+
+                                                " FROM Usuario as u "+
+                                                " INNER JOIN Tipo_Usuario as tu "+
+                                                " ON u.id_tipousuario = tu.id_tipousuario "+
+                                                " INNER JOIN Estatus as es "+
+                                                " ON u.id_estatus = es.id_estatus and u.id_estatus = 1 "+
+                                                " INNER JOIN Pais as p " +
+                                                " ON u.id_pais = p.id_pais " +
+                                                " INNER JOIN Estado as e " +
+                                                " ON u.id_estado = e.id_estado " +
+                                                " INNER JOIN Municipio as m " +
+                                                " ON u.id_municipio = m.id_municipio ");
             DataTable datos = miConexion.EjecutarSentenciaBus(strBuscar);
             //Se convierte a JSON
             string SalidaJSON = string.Empty;
@@ -62,7 +73,7 @@ namespace WebService
         public void Eliminar(int id)
         {
 
-            int idusu = miConexion.ejecutarSentencia(string.Format("DELETE FROM Usuario WHERE id = {0}", id));
+            int idusu = miConexion.ejecutarSentencia(string.Format("DELETE FROM Usuario WHERE id_usuario = {0}", id));
             //Se convierte a JSON
             string SalidaJSON = string.Empty;
             SalidaJSON = JsonConvert.SerializeObject(idusu);

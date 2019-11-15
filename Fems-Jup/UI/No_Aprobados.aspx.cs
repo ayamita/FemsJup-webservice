@@ -13,5 +13,21 @@ namespace Fems_Jup.UI
         {
 
         }
+
+        protected void Seleccionar_registro(object sender, EventArgs e)
+        {
+            txt_Id.Text = HttpUtility.HtmlDecode(dgvDatos.SelectedRow.Cells[0].Text);
+            txt_Nombre.Text = HttpUtility.HtmlDecode(dgvDatos.SelectedRow.Cells[1].Text);
+        }
+
+        protected void dgv_usuario_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            //sirve para que al usuario le de la opcion de apretar con un cursor
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                e.Row.Attributes["onclick"] = Page.ClientScript.GetPostBackClientHyperlink(dgvDatos, "Select$" + e.Row.RowIndex);
+                e.Row.Attributes["style"] = "cursor:pointer";
+            }
+        }
     }
 }

@@ -11,10 +11,13 @@ namespace Fems_Jup.BO
         private string nombre;
         private string apellidoP;
         private string apellidoM;
+        private string foto;
         private string direccion;
         private string telefono;
         private string pais;
         private string estado;
+        private string estatus;
+        private string tusuario;
         private string municipio;
         private string correo;
         private string contrasenia;
@@ -161,5 +164,9 @@ namespace Fems_Jup.BO
                 contrasenia = value;
             }
         }
+
+        public string Foto { get => foto; set => foto = value; }
+        public string Estatus { get => estatus; set => estatus = value; }
+        public string Tusuario { get => tusuario; set => tusuario = value; }
     }
 }
