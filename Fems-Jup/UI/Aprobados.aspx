@@ -8,14 +8,15 @@
                 <div class="card">
                     <div class="card-header"><strong>Usuarios Aprobados</strong><small> Form</small></div>
                     <div class="card-body card-block">
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="lbl_Id" runat="server" Text="Id:"></asp:Label><br />
-                            <asp:TextBox ID="txt_Id"  class="form-control"  runat="server" placeholder="Id de usuario"></asp:TextBox><br />
-                        </div>  
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="lbl_Nombre" runat="server" Text="Nombre:"></asp:Label><br />
-                            <asp:TextBox ID="txt_Nombre" runat="server" placeholder="Nombre de usuario" class="form-control"></asp:TextBox><br />                                            
-                        </div>                        
+                        <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Id:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" id="txt_Id"  runat="server"  name="text-input" placeholder="Id de usuario" class="form-control"  disabled></div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Nombre:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_Nombre" runat="server"  name="text-input" placeholder="Nombre de usuario" class="form-control"  disabled></div>
+                        </div>
+                                             
                         <div class="form-group">                            
                              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" style="background-color:#7F183A"">
                                 Ver más
@@ -34,51 +35,56 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">                        
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label2" runat="server" Text="Nombre:"></asp:Label><br />
-                            <asp:TextBox ID="txt_nombre2" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>        
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label3" runat="server" Text="Apellido Paterno:"></asp:Label><br />
-                            <asp:TextBox ID="txt_apellidop" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                                              
-                        </div>  
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label4" runat="server" Text="Apellido Materno:"></asp:Label><br />
-                            <asp:TextBox ID="txt_apellidon" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>        
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label5" runat="server" Text="Correo:"></asp:Label><br />
-                            <asp:TextBox ID="txt_correo" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                                              
-                        </div>
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label11" runat="server" Text="Teléfono:"></asp:Label><br />
-                            <asp:TextBox ID="txt_telefono" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>       
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label1" runat="server" Text="Dirección:"></asp:Label><br />
-                            <asp:TextBox ID="txt_direccion" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                                              
-                        </div>  
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label6" runat="server" Text="Tipo Usuario:"></asp:Label><br />
-                            <asp:TextBox ID="txt_tusuario" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>        
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label7" runat="server" Text="Estatus:"></asp:Label><br />
-                            <asp:TextBox ID="txt_estatus" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                                              
-                        </div>  
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label8" runat="server" Text="País:"></asp:Label><br />
-                            <asp:TextBox ID="txt_pais" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>        
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label9" runat="server" Text="Estado:"></asp:Label><br />
-                            <asp:TextBox ID="txt_estado" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                                              
-                        </div>  
-                        <div class="form-group">
-                            <asp:Label for="company" class=" form-control-label" ID="Label10" runat="server" Text="Municipio:"></asp:Label><br />
-                            <asp:TextBox ID="txt_municipio" runat="server" placeholder="" class="form-control"></asp:TextBox><br />                                            
-                        </div>        
+                  <div class="modal-body"> 
+                      <div class="row form-group" >                            
+                          <div class="col col-md-2"></div>
+                          <div class="col-12 col-md-10"><asp:Image ID="foto_perfil" runat="server" Height="222px" class="img-thumbnail" /></div>
+                        </div>    
+                      
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Nombre:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_nombre2" runat="server"  name="text-input" placeholder="Nombre de usuario" class="form-control"  disabled></div>
+                        </div>                  
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Apellido Paterno:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_apellidop" runat="server"  name="text-input" placeholder="Apellido Paterno" class="form-control"  disabled></div>
+                        </div>                        
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Apellido Materno:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_apellidom" runat="server"  name="text-input" placeholder="Apellido Materno" class="form-control"  disabled></div>
+                        </div>                                                
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Correo:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_correo" runat="server"  name="text-input" placeholder="Correo de Usuario" class="form-control"  disabled></div>
+                        </div>                                              
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Teléfono:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_telefono" runat="server"  name="text-input" placeholder="Teléfono" class="form-control"  disabled></div>
+                        </div>                                                                        
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Dirección:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_direccion" runat="server"  name="text-input" placeholder="Dirección" class="form-control"  disabled></div>
+                        </div>                        
+                       <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Tipo Usuario:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_tusuario" runat="server"  name="text-input" placeholder="Tipo Usuario" class="form-control"  disabled></div>
+                        </div>                             
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Estatus:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_estatus" runat="server"  name="text-input" placeholder="Estatus" class="form-control"  disabled></div>
+                        </div>                                                     
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">País:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_pais" runat="server"  name="text-input" placeholder="País" class="form-control"  disabled></div>
+                        </div>                             
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">Estado:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_estado" runat="server"  name="text-input" placeholder="Estado" class="form-control"  disabled></div>
+                        </div>                  
+                      <div class="row form-group">
+                            <div class="col col-md-3"><label for="text-input" class=" form-control-label">País:</label></div>
+                            <div class="col-12 col-md-9"><input type="text" ID="txt_municipio" runat="server"  name="text-input" placeholder="Municipio" class="form-control"  disabled></div>
+                        </div>                                           
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

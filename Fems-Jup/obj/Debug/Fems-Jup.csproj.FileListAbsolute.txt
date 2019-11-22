@@ -163,9 +163,6 @@ C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\roslyn\vbc.rsp
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\roslyn\VBCSCompiler.exe
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Web.Service.dll
-C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Web.Service.pdb
-C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Web.Service.dll.config
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.csprojAssemblyReference.cache
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.csproj.CoreCompileInputs.cache
@@ -174,3 +171,7 @@ C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.dll
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\obj\Debug\Fems-Jup.pdb
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Newtonsoft.Json.dll
 C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\Newtonsoft.Json.xml
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\ApplicationInsights.config
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\WebService.dll
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\WebService.pdb
+C:\Users\Angel Yam\Documents\GitHub\FemsJup2\Fems-Jup\bin\WebService.dll.config

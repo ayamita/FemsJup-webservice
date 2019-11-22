@@ -108,6 +108,7 @@
     <Content Include="Resourse\images\logo.png" />
     <Content Include="Resourse\images\logo2.png" />
     <Content Include="Resourse\images\placeholder.png" />
+    <Content Include="Resourse\images\subirfoto.png" />
     <Content Include="Resourse\images\twitter_corner_black.png" />
     <Content Include="Resourse\images\twitter_corner_blue.png" />
     <Content Include="Resourse\vendors\animate.css\animate.css" />
@@ -2093,6 +2094,7 @@
     <Content Include="Resourse\vendors\themify-icons\ie7\ie7.css" />
     <Content Include="Resourse\vendors\themify-icons\ie7\ie7.js" />
     <Content Include="UI\Aprobados.aspx" />
+    <Content Include="UI\Crear_Usuario.aspx" />
     <Content Include="UI\Index.aspx" />
     <Content Include="UI\Login.aspx" />
     <Content Include="UI\No_Aprobados.aspx" />
@@ -2100,6 +2102,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\conexion.cs" />
     <Compile Include="BO\UsuarioAdmin.cs" />
     <Compile Include="Connected Services\SQL\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -2127,6 +2130,13 @@
     </Compile>
     <Compile Include="UI\Aprobados.aspx.designer.cs">
       <DependentUpon>Aprobados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Crear_Usuario.aspx.cs">
+      <DependentUpon>Crear_Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Crear_Usuario.aspx.designer.cs">
+      <DependentUpon>Crear_Usuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -2818,18 +2828,19 @@
     <Content Include="Resourse\vendors\themify-icons\fonts\themify.ttf" />
     <Content Include="Resourse\vendors\themify-icons\fonts\themify.woff" />
     <Content Include="Resourse\vendors\themify-icons\README.md" />
+    <Content Include="Properties\Web.config" />
+    <None Include="Properties\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Properties\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Web.Service\Web.Service.csproj">
-      <Project>{bf81e0d9-4971-48dc-9647-a3dc6e78ac6f}</Project>
-      <Name>Web.Service</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Resourse\vendors\popper.js\packages\popper\index.d.ts" />
@@ -2842,6 +2853,15 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\SQL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resourse\images\fotosperfil\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebService\WebService.csproj">
+      <Project>{f5b1b654-b2ae-4f09-94fd-71e592c0a281}</Project>
+      <Name>WebService</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
