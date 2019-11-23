@@ -135,7 +135,7 @@ namespace WebService
         public void Eliminar(int id)
         {
 
-            int idusu = miConexion.ejecutarSentencia(string.Format("DELETE FROM Usuario WHERE id_usuario = {0}", id));
+            int idusu = miConexion.ejecutarSentencia(string.Format("Update Usuario set id_estatus=2 where id_usuario = {0}", id));
             //Se convierte a JSON
             string SalidaJSON = string.Empty;
             SalidaJSON = JsonConvert.SerializeObject(idusu);

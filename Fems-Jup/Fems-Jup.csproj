@@ -2098,7 +2098,6 @@
     <Content Include="UI\Index.aspx" />
     <Content Include="UI\Login.aspx" />
     <Content Include="UI\No_Aprobados.aspx" />
-    <Content Include="UI\Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2158,13 +2157,6 @@
     </Compile>
     <Compile Include="UI\No_Aprobados.aspx.designer.cs">
       <DependentUpon>No_Aprobados.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UI\Registro.aspx.cs">
-      <DependentUpon>Registro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UI\Registro.aspx.designer.cs">
-      <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -2829,6 +2821,7 @@
     <Content Include="Resourse\vendors\themify-icons\fonts\themify.woff" />
     <Content Include="Resourse\vendors\themify-icons\README.md" />
     <Content Include="Properties\Web.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

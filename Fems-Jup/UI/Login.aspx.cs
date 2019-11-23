@@ -24,7 +24,7 @@ namespace Fems_Jup.UI
             UsuarioAdmin obj = new UsuarioAdmin();
             obj.Correo = txtcorreo.Text;
             obj.Contrasenia = txtcontra.Text;
-            string sUrlRequest = "http://localhost:51437/SQL.asmx/Login?correo=" + obj.Correo +
+            string sUrlRequest = "http://femsjup.somee.com/SQL.asmx/Login?correo=" + obj.Correo +
                  "&contrasenia=" + obj.Contrasenia;
             var json = new WebClient().DownloadString(sUrlRequest);
             

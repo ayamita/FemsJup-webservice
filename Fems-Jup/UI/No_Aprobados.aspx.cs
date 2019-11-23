@@ -59,7 +59,7 @@ namespace Fems_Jup.UI
         }
         public void Grid()
         {
-            string sUrlRequest = "http://localhost:51437/SQL.asmx/Mostrar_PorAutorizar";
+            string sUrlRequest = "http://femsjup.somee.com/SQL.asmx/Mostrar_PorAutorizar";
             var json = new WebClient().DownloadString(sUrlRequest);
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(json, (typeof(DataTable)));
             dgvDatos.DataSource = dt;
@@ -97,7 +97,7 @@ namespace Fems_Jup.UI
             txt_municipio.Value = usu.Municipio;
 
             UsuarioAdmin obj = new UsuarioAdmin();
-            string sUrlRequest = "http://localhost:51437/SQL.asmx/FotoAP?id=" + usu.Id;
+            string sUrlRequest = "http://femsjup.somee.com/SQL.asmx/FotoAP?id=" + usu.Id;
             var json = new WebClient().DownloadString(sUrlRequest);
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(json, (typeof(DataTable)));
 
@@ -121,7 +121,7 @@ namespace Fems_Jup.UI
         {
             UsuarioAdmin usuario = new UsuarioAdmin();
             usuario.Id = int.Parse(txt_Id.Value);
-            string sUrlRequest = "http://localhost:51437/SQL.asmx/Autorizar?id=" + usuario.Id;
+            string sUrlRequest = "http://femsjup.somee.com/SQL.asmx/Autorizar?id=" + usuario.Id;
             var json = new WebClient().DownloadString(sUrlRequest);
             txt_Id.Value = "";
             Grid();

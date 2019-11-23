@@ -14,8 +14,10 @@ namespace WebService.DAO
         SqlCommand exec;
         public Conexion()
         {
-            //con = new SqlConnection("workstation id=BDServiciosric.mssql.somee.com;packet size=4096;user id=Arc07_SQLLogin_1;pwd=noizupwqo8;data source=BDServiciosric.mssql.somee.com;persist security info=False;initial catalog=BDServiciosric");
-            con = new SqlConnection("Data Source=PCAYAM\\SQLEXPRESS; Initial Catalog=FEMSJUP; Integrated Security=True");
+            //con = new SqlConnection("workstation id=FemsJup.mssql.somee.com;packet size=4096;user id=UTM;pwd=Hola1234;data source=FemsJup.mssql.somee.com;persist security info=False;initial catalog=FemsJup");
+            //con = new SqlConnection("Data Source=PCAYAM\\SQLEXPRESS; Initial Catalog=FEMSJUP; Integrated Security=True");
+            con = new SqlConnection("Data Source = sql5047.site4now.net; Initial Catalog = DB_A5046F_FEMSJUP; User Id = DB_A5046F_FEMSJUP_admin; Password = Hola1234;");
+            
             exec = new SqlCommand();
         }
 
